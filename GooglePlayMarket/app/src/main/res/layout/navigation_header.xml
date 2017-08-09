@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/beijing">
+
+    <LinearLayout
+        android:id="@+id/navigation_drawer_account_section"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/navigation_drawer_user_account_picture_cover"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/navigation_header_photo"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/navigation_drawer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="梦回那年旧城"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:alpha="0.87"/>
+        <TextView
+            android:id="@+id/navigation_drawer_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="89255XXXXX@qq.com"
+            android:textSize="14sp"/>
+        </LinearLayout>
+</RelativeLayout>

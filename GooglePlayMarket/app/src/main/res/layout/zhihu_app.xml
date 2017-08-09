@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:id="@+id/framelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/image_zhihu_title" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/image_sanguo_kaishi"
+            android:alpha="0.8"/>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/framelayout1"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="16dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/image_zhihu_icon"/>
+            <LinearLayout
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="知乎" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zhihu Inc." />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="卸载"
+                android:textStyle="bold"
+                android:background="@drawable/buttonstyle"/>
+            <Button
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="打开"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_light_background"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:alpha="0.2"
+            android:background="#aa000000" />
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="108dp"
+           android:background="@drawable/pingjia"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:alpha="0.2"
+            android:background="#aa000000" />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:text="与世界分享你的知识、经验和见解"/>
+        <FrameLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.2"
+                android:background="@color/colorPrimary">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="新版变化"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="- 把自己或他人的评论直接「分享」到首页"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="- 「分享」支持发送tag和按tag搜索相当方便"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="- 可以标记感兴趣的Live专题和课程了"/>
+
+            </LinearLayout>
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:text="了解更多"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="16dp">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="45sp"
+               android:layout_marginLeft="16dp"
+               android:textColor="#000000"
+               android:text="4.4"/>
+           <LinearLayout
+               android:layout_marginTop="8dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="8dp"
+               android:orientation="vertical">
+
+               <RatingBar
+                   style="@style/Widget.AppCompat.RatingBar.Small"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:rating="4.5"
+                   android:isIndicator="true"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="15,674"/>
+           </LinearLayout>
+           <ImageView
+               android:layout_marginLeft="8dp"
+               android:layout_width="200dp"
+               android:layout_height="52dp"
+               android:background="@drawable/table_pingfen"/>
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp">
+
+            <com.example.yangzimu.googleplaymarket.CircleImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@color/colorPrimary" />
+
+            <LinearLayout
+                android:id="@+id/pinglun1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DuoLing"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:alpha="0.87"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RatingBar
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:rating="5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2017/4/21" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="良心应用" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/clickgood1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:background="@drawable/clickgood_1"/>
+
+            <ImageButton
+                android:id="@+id/dianzan_menu1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/menu_1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp">
+
+            <com.example.yangzimu.googleplaymarket.CircleImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@color/colorPrimary" />
+
+            <LinearLayout
+                android:id="@+id/pinglun2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="王景明"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:alpha="0.87"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RatingBar
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:rating="3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2017/4/21" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/clickgood2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:background="@drawable/clickgood_1"/>
+
+            <ImageButton
+                android:id="@+id/dianzan_menu2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/menu_1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp">
+
+            <com.example.yangzimu.googleplaymarket.CircleImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@color/colorPrimary" />
+
+            <LinearLayout
+                android:id="@+id/pinglun3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dadada"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:alpha="0.87"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RatingBar
+                        android:id="@+id/ratingBar"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:rating="2.5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2017/4/15" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="这个版本的知乎似乎有\n问题，看了其中的某个\n回答，切出应用再回来\n就不能继续滑动了" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/clickgood3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:background="@drawable/clickgood_1"/>
+
+            <ImageButton
+                android:id="@+id/dianzan_menu3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/menu_1" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/fengexian_10"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="#d7d7d7" />
+        <Button
+            android:id="@+id/suoyoupinglun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:text="所有评价"
+            android:textColor="@color/colorPrimaryDark"/>
+        <View
+            android:id="@+id/fengexian_11"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="#d7d7d7" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:background="@drawable/image_fenxiang"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:text="分享"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:background="#00000000"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>
